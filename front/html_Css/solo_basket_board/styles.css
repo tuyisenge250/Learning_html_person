@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    font-family: "Happy Monkey", serif;
+    font-weight: bold;
+    color: wheat;
+}
+
+.container{
+    background-color: #4C1D95;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border-bottom: 2px solid brown;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 5px;
+    padding-bottom: 40px;
+}
+h1{
+    margin: 20px 0px 10px 0px;
+}
+#mark{
+    background-color: black;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+    font-family: "Doto", sans-serif;
+    color: red;
+    margin-bottom: 10px;
+}
+button{
+    background-color: #e9d8a6;
+    border: 1px dashed rgb(240, 216, 232);
+    border-radius: 5px;
+    font-family: "Doto", sans-serif;
+}

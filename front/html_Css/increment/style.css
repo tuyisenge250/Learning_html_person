@@ -4,6 +4,7 @@ body{
     color: white;
     text-align: center;
     background-size: cover;
+    height: 100vh;
 }
 
 section{
