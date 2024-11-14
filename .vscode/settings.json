@@ -1,0 +1,16 @@
+{
+    "workbench.settings.openDefaultKeybindings": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.NoBrowser": false,
+    "debug.javascript.defaultRuntimeExecutable": {
+        "pwa-node": "node"
+    },
+    "editor.suggest.showStatusBar": true,
+    "zenMode.hideStatusBar": false,
+    "debug.showSubSessionsInToolBar": true,
+    "zenMode.hideActivityBar": false,
+    "workbench.editor.historyBasedLanguageDetection": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideTabs": false,
+    "liveServer.settings.port": 5001
+}

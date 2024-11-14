@@ -1,0 +1,42 @@
+body{
+    background-image: url('./tomatoes_store.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 3px;
+    margin: 30px auto;
+    text-shadow: 0px 0px 3px black;
+    background-color: antiquewhite;
+}
+button{
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+#count-btn{
+    background-color: brown;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#save-btn{
+    background-color: blue;
+    border: none;
+    margin: 5px ;
+    border-radius: 12px;
+}
+#count-el{
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+}
