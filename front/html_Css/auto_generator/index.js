@@ -22,6 +22,6 @@ function passwordGenerator(){
 }
 generatorBtn.addEventListener("click",()=>{
     generatorel1.textContent = passwordGenerator().join("")
-    generatorel2.textContent = passwordGenerator()
+    generatorel2.textContent = passwordGenerator().join("")
 })
 
