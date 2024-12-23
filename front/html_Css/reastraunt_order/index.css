@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+.template{
+    
+    width: 600px;
+    height: auto;
+    box-shadow: 0 0 60px black;
+    margin: 100px auto;
+    font-family: "Happy Monkey", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-image: url('./image/bg_img.png');
+    height: 100px;
+    padding-left: 40px;
+    padding-top: 40px;
+    color: aliceblue;
+    text-shadow: 0 0 2px black;
+}
+h1, h3{
+    margin: 0px;
+    font-weight: 100;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px; /* Adds spacing between children */
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 10px;
+}
+.item h1, .item h2{
+    margin: 0px;
+}
+.image{
+    width: 70px;
+    height: 89px;
+    margin: 10px;
+    font-size: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.add-item{
+    font-size: 25px;
+    margin-left: auto;
+}
+.item button{
+    border: none;
+}
+.order{
+    display: none;
+    border: 2px solid template;
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+}
+.chart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.line{
+    border-bottom: 3px solid black;
+}
+.total-price{
+    display: flex;
+    justify-content: end;
+}
+.order button, .form button{
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    font-weight: 800;
+    border: none;
+}
+.form{
+  display: none;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: 0 0 10px black;
+  padding: 10px;
+  background-color: white;
+}
+input{
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 5px;
+}
+
