@@ -1,3 +1,5 @@
+it is so crazy to be a developer
+
 # Getting Started
 Install the dependencies and run the project
 ```
